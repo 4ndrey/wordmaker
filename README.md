@@ -10,12 +10,21 @@ Create an english word from a given characters set
 Output:
 
 `do`
+
 `lo`
+
 `od`
+
 `or`
+
 ...
+
 `drow`
+
 `lord`
+
 `wold`
+
 `word`
+
 `world`
