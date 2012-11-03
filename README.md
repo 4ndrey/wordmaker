@@ -1,7 +1,7 @@
 wordmaker
 =========
 
-Create an english word from a given characters set
+Create an english word from given string characters
 
 ## Example of usage
 
