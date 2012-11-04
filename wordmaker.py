@@ -16,7 +16,7 @@ def containsAll(str, set):
     return 1
 
 letters = sys.argv[1]
-dictPath = "words/"
+dictPath = "dict/"
 words = []
 
 for filename in os.listdir(dictPath):
