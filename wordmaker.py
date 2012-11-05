@@ -8,11 +8,11 @@ def containsAll(str, set):
     iset = set
     while len(iset) > 0:
         c = iset[0]
-        if c not in istr: 
+        if c not in istr:
             return 0
         else:
             iset = iset.replace(c, "", 1)
-            istr = istr.replace(c, "", 1)               
+            istr = istr.replace(c, "", 1)
     return 1
 
 letters = sys.argv[1]
@@ -25,10 +25,10 @@ for filename in os.listdir(dictPath):
         if word != "":
             words.append(word)
 
-result = []         
-    
+result = []
+
 for word in words:
-    if containsAll(letters, word):      
+    if containsAll(letters, word):
         result.append(word)
 
 result.sort(key = len)
